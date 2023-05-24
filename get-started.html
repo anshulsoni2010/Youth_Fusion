@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="./img/logo/nav-logo_with-background.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/logo/main-logo.png" type="image/x-icon">
+  <title>
+    Get Started with your Project Today!
+  </title>
+
+  <style>
+    /* Styling the Body element i.e. Color,
+		Font, Alignment */
+    body {
+      background-color: #6610f2;
+      font-family: Verdana;
+      text-align: center;
+    }
+
+    /* Styling the Form (Color, Padding, Shadow) */
+    form {
+      background-color: #fff;
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px 20px;
+      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Styling form-control Class */
+    .form-control {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+
+    /* Styling form-control Label */
+    .form-control label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    /* Styling form-control input,
+		select, textarea */
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+      border: 1px solid #777;
+      border-radius: 2px;
+      font-family: inherit;
+      padding: 10px;
+      display: block;
+      width: 95%;
+    }
+
+    /* Styling form-control Radio
+		button and Checkbox */
+    .form-control input[type="radio"],
+    .form-control input[type="checkbox"] {
+      display: inline-block;
+      width: auto;
+    }
+
+    /* Styling Button */
+    button {
+      background-color: #05c46b;
+      border: 1px solid #777;
+      border-radius: 2px;
+      font-family: inherit;
+      font-size: 21px;
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="./index.html"><button style="width:fit-content;">Go Back</button></a>
+  <center>
+    <h2 style="color:whitesmoke;background: #6200ff; width:fit-content">Get Started your project today with Youth
+      Fusion!</h2>
+  </center>
+
+  <!-- Create Form -->
+  <form action="https://formspree.io/f/mgebrlry" method="POST">
+
+
+    <!-- Details -->
+    <div class="form-control">
+      <label id="label-name">
+        Name<b style="color:rgba(255, 21, 0, 0.732)">*</b>
+      </label>
+
+      <input type="text" name="Get-started-project-form-sender_Name" id="name" placeholder="Enter your name" required />
+    </div>
+
+    <div class="form-control">
+      <label for="email" id="label-email">
+        Email <b style="color:rgba(255, 21, 0, 0.732)">*</b>
+      </label>
+    </div>
+    <div class="form-control">
+
+      <input type="email" id="email" placeholder="Enter your Email id" name="Get-started-project-form-sender_Email-id"
+        required />
+    </div>
+
+    <div class="form-control">
+      <label for="email" id="label-email">
+        Contact number<b style="color:rgba(255, 21, 0, 0.732)">*</b>
+      </label>
+    </div>
+    <div class="form-control">
+
+      <input type="tel" id="contact-no" placeholder="Enter your Contact no"
+        name="Get-started-project-form-sender_contact-no." required />
+    </div>
+
+
+    <div class="form-control">
+      <label for="role" id="label-role">
+        Which role best describes you? (optional)
+      </label>
+
+      <!-- Dropdown options -->
+      <select name="role" id="role" name="Get-started-project-form-sender_their-role-at-theirCompany">
+        <option value="Employee">Select a option</option>
+        <option value="Employee">Employee</option>
+        <option value="Intreprenuer">Intreprenuer</option>
+        <option value="Manager/Director">
+          Manager/Director
+        </option>
+        <option value="Coder">
+          Coder </option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-control">
+      <label>
+        Do you like our project/service<b style="color:rgba(255, 21, 0, 0.732)">*</b>
+      </label>
+
+      <!-- Input Type Radio Button -->
+      <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="They Like our services/projects">Yes</input>
+      </label>
+      <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="They Dont like our services/project">No</input>
+      </label>
+      <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="They like some project and some not(neither)">Neither</input>
+      </label>
+    </div>
+
+    <div class="form-control">
+      <label>What type of service required for you?<b style="color:rgba(255, 21, 0, 0.732)">*</b>
+        <small>(Check all that apply)</small>
+      </label>
+      <!-- Input Type Checkbox -->
+      <label for="inp-1">
+        <input type="checkbox" name="They want Graphic Designing service">Graphic Designing</input></label>
+      <label for="inp-2">
+        <input type="checkbox" name="They want Web development service">Web Development</input></label>
+      <label for="inp-3">
+        <input type="checkbox" name="They want social media management service">Social Media Management</input></label>
+      <label for="inp-4">
+        <input type="checkbox" name="They want video editing service">Video Editing</input></label>
+      <label for="inp-5">
+        <input type="checkbox" name="They want content marketing service">Content Marketing</input></label>
+      <label for="inp-6">
+        <input type="checkbox" name="They want logo designing service">Logo Designing</input></label>
+
+    </div>
+
+    <div class="form-control">
+      <label for="comment">
+        Tell us more about what do you want by us?
+        What type of work/project you have?<b style="color:rgba(255, 21, 0, 0.732)">*</b>
+      </label>
+
+      <!-- multi-line text input control -->
+      <textarea name="comment" id="comment" placeholder="Enter your comment here" name="  Tell us more about what do you want by us?
+      What type of work/project you have?" required>
+			</textarea>
+    </div>
+
+    <!-- Multi-line Text Input Control -->
+    <button type="submit" value="submit">
+      Submit
+    </button>
+  </form>
+</body>
+
+</html>
